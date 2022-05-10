@@ -5,7 +5,7 @@
 **Request Body**
 
 |Name|Type|Required|Description|example|
-|---------|--------|-----------|-------|
+|----|----|--------|-----------|-------|
 |username|`String`|`True`|사용자 이름|`"userName"`|
 |password|`String`|`True`|사용자 비밀번호|`"password"`|
 
