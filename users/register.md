@@ -1,4 +1,4 @@
-**URL** : `/api/auth/`
+**URL** : `/api/users/`
 
 **Method** : `POST`
 
