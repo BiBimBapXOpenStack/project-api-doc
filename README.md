@@ -2,8 +2,15 @@
 
 
 ## Common Error
-[common_error](https://github.com/BiBimBapXOpenStack/project-api-doc/tree/master/common_error)
+- [Bad_Request](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/common_error/Bad_Request.md)
+- [UnAuthorized](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/common_error/Unauthorized.md)
 ## Users
-[users](https://github.com/BiBimBapXOpenStack/project-api-doc/tree/master/auth)  
+- [register](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/auth/register.md)
+- [login](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/auth/login.md)
+- [logout](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/auth/logout.md)
 ## Posts
-[posts](https://github.com/BiBimBapXOpenStack/project-api-doc/tree/master/posts)  
+- [getPost](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/posts/getPost.md)
+- [getPosts](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/posts/getPosts.md)
+- [createPost](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/posts/createPost.md)
+- [updatePost](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/posts/updatePost.md)
+- [deletePost](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/posts/deletePost.md)
