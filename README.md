@@ -14,8 +14,3 @@
 - [createPost](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/posts/createPost.md)
 - [updatePost](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/posts/updatePost.md)
 - [deletePost](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/posts/deletePost.md)
-
-## 로그
-
-로그는 각 요청마다 auth, post 로 나누어 저장
-
