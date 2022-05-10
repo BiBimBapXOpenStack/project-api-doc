@@ -53,7 +53,7 @@ result : {errMsg}
 {
   "resultCode" : 409,
   "result" : { 
-    errMsg : "Conflict ID"
+    "errMsg" : "Conflict ID"
   }
 }
 ```
