@@ -25,8 +25,9 @@
   "resultCode" : 200,
   "result" : {
       {
-        "_id" : "aaa111",
-        "user_id" : "userName",
+        "_id" : 1,
+        "user_id" : 1,
+        "username" : "anjm1020",
         "title" : "Post Title",
         "createAt" : "Tue May 2 2022 11:00:19 GMT+0900",
         "updateAt" : "Tue May 10 2022 16:47:29 GMT+0900",
