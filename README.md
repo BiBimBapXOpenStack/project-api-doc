@@ -5,9 +5,9 @@
 - [Bad_Request](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/common_error/Bad_Request.md)
 - [UnAuthorized](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/common_error/Unauthorized.md)
 ## Users
-- [register](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/auth/register.md)
-- [login](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/auth/login.md)
-- [logout](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/auth/logout.md)
+- [register](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/users/register.md)
+- [login](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/users/login.md)
+- [logout](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/users/logout.md)
 ## Posts
 - [getPost](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/posts/getPost.md)
 - [getPosts](https://github.com/BiBimBapXOpenStack/project-api-doc/blob/master/posts/getPosts.md)
