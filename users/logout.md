@@ -1,4 +1,4 @@
-**URL** : `/api/auth/logout`
+**URL** : `/api/users/logout`
 
 **Method** : `GET`
 
