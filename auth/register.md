@@ -2,6 +2,8 @@
 
 **Method** : `POST`
 
+**Description** : 사용자 등록
+
 **Request Body**
 
 |Name|Type|Required|Description|example|
@@ -24,11 +26,7 @@
 
 **Code** : `200 OK`
 
-**Content** : `{
-resultCode : 200,
-result : {username}
-}`
-
+**Content**
 ```json
 {
   "resultCode" : 200,
@@ -44,11 +42,7 @@ result : {username}
 
 **Code** : `409 Confilct`
 
-**Content** : `{
-resultCode : 409,
-result : {errMsg}
-}`
-
+**Content**
 ```json
 {
   "resultCode" : 409,
