@@ -8,12 +8,9 @@
 
 ```json
 {
-  "resultCode" : 400,
-  "result" : {
     "errMsg" : [
       "<FieldName> is required\n",
       "<FieldName>/<Type> is not supported / Recommended : <Type>\n",
     ]
-  }
 }
 ```
