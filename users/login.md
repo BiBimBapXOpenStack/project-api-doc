@@ -1,4 +1,4 @@
-**URL** : `/api/users/`
+**URL** : `/api/users/login`
 
 **Method** : `POST`
 
@@ -29,10 +29,7 @@
 **Content**
 ```json
 {
-  "resultCode" : 200,
-  "result" : {
     "username" : "userExample"
-  }
 }
 ```
 
@@ -45,10 +42,7 @@
 **Content**
 ```json
 {
-  "resultCode" : 401,
-  "result" : { 
     "errMsg" : "Failed to Auth"
-  }
 }
 ```
 
