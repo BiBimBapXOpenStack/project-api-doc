@@ -29,10 +29,7 @@
 **Content**
 ```json
 {
-  "resultCode" : 200,
-  "result" : {
     "username" : "userExample"
-  }
 }
 ```
 
@@ -45,10 +42,7 @@
 **Content**
 ```json
 {
-  "resultCode" : 409,
-  "result" : { 
     "errMsg" : "Conflict ID"
-  }
 }
 ```
 
