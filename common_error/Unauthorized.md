@@ -8,9 +8,6 @@
 
 ```json
 {
-  "resultCode" : 401,
-  "result" : {
     "errMsg" : "Unauthorized User"
-  }
 }
 ```
