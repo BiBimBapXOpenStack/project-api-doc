@@ -22,10 +22,6 @@
 
 ```json
 {
-  "resultCode" : 200,
-  "result" : {
-        "deletedId" : "aaa111",
-  }
 }
 ```
 
@@ -38,10 +34,7 @@
 **Content**
 ```json
 {
-  "resultCode" : 403,
-  "result" : { 
     "errMsg" : "No permission to current post"
-  }
 }
 ```
 
@@ -52,9 +45,6 @@
 **Content**
 ```json
 {
-  "resultCode" : 404,
-  "result" : { 
     "errMsg" : "Invalid postid"
-  }
 }
 ```

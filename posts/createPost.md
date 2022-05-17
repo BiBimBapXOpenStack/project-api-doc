@@ -29,13 +29,6 @@
 
 ```json
 {
-  "resultCode" : 200,
-  "result" : {
-      {
-        "_id" : "aaa111",
-        "user_id" : "userName",
-        "createAt" : "Tue May 2 2022 11:00:19 GMT+0900",
-      },
-  }
+  "_id" : 1
 }
 ```

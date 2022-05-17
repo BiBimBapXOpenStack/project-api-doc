@@ -22,8 +22,6 @@
 
 ```json
 {
-  "resultCode" : 200,
-  "result" : {
     [
       {
         "_id" : 1,
@@ -34,7 +32,6 @@
         "updateAt" : "Tue May 10 2022 16:47:29 GMT+0900",
       },
     ]
-  }
 }
 ```
 
@@ -47,10 +44,7 @@
 **Content**
 ```json
 {
-  "resultCode" : 404,
-  "result" : { 
     "errMsg" : "Invalid index"
-  }
 }
 ```
 
