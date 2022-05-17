@@ -29,15 +29,6 @@
 
 ```json
 {
-  "resultCode" : 200,
-  "result" : {
-      {
-        "_id" : "aaa111",
-        "user_id" : "userName",
-        "createAt" : "Tue May 2 2022 11:00:19 GMT+0900",
-        "updateAt" : "Tue May 10 2022 12:12:24 GMT+0900",
-      },
-  }
 }
 ```
 
@@ -51,10 +42,7 @@
 
 ```json
 {
-  "resultCode" : 403,
-  "result" : {
     "errMsg" : "No Permission to current post"
-  }
 }
 ```
 **Condition** : 수정을 시도하는 게시글이 존재하지 않음
@@ -65,9 +53,6 @@
 
 ```json
 {
-  "resultCode" : 404,
-  "result" : {
     "errMsg" : "Post Not Found"
-  }
 }
 ```
