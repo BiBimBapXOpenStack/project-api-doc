@@ -10,7 +10,7 @@
 
 |Name|Type|Required|Description|example|
 |----|----|--------|--------|-------|
-|postId|`String`|`True`|게시글 id|`"aaa111"`|
+|postId|`Long`|`True`|게시글 id|`"1"`|
 
 ## Success Responses
 
@@ -22,23 +22,25 @@
 
 ```json
 {
-        "_id" : 1,
-        "user_id" : 1,
-        "title" : "Post Title",
-        "createAt" : "Tue May 2 2022 11:00:19 GMT+0900",
-        "updateAt" : "Tue May 10 2022 16:47:29 GMT+0900",
+  "id":1,
+  "title" : "admin post",
+  "content":"admin body asdasdas",
+  "imageId":2,
+  "imageUrl":"https://api-storage.cloud.toast.com/v1/AUTH_35682dae0076479ab712dbb328468535/ajm-test/1657608859095/2A342087-BC2B-4823-8CEB-F63097013FA9_1_201_a.jpeg",
+  "userId":1,
+  "username":"admin"
 }
 ```
+
+|Name|Type|Description|example|
+|----|----|--------|-------|
+|id|`Long`|게시글 id|`1`|
+|title|`String`|게시글 title|`"post title"`|
+|content|`String`|게시글 본문|`"post body ..."`|
+|imageId|`Long`|게시글 이미지 id|`1`|
+|imageUrl|`String`|게시글 이미지 엔드포인트|`https://api-storgae....`|
+|userId|`Long`|게시글 작성자 id|`1`|
+|username|`String`|게시글 작성자 이름|`"jaemin"`|
 
 ## Failure Response
 
-**Condition** : 해당 게시글이 존재하지 않을 때
-
-**Code** : `404 Not Found`
-
-**Content**
-```json
-{
-    "errMsg" : "Invalid postid"
-}
-```
