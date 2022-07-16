@@ -1,4 +1,4 @@
-**URL** : `/api/users/login`
+**URL** : `/api/members/login`
 
 **Method** : `POST`
 
@@ -8,13 +8,13 @@
 
 |Name|Type|Required|Description|example|
 |----|----|--------|-----------|-------|
-|username|`String`|`True`|사용자 이름|`"userName"`|
-|password|`String`|`True`|사용자 비밀번호|`"password"`|
+|email|`String`|`True`|사용자 이메일|`"user@mail.com"`|
+|password|`String`|`True`|사용자 비밀번호|`"mypassword123"`|
 
 ```json
 {
-  "username" : "example userID",
-  "password" : "example password"
+  "email" : "user@mail.com",
+  "password" : "mypassword123"
 }
 ```
 
@@ -29,20 +29,30 @@
 **Content**
 ```json
 {
-    "username" : "userExample"
+  "status":"OK",
+  "result":
+    {
+      "id":2,
+      "username":"jaemin"
+    }
 }
 ```
+**Response Headers**
+|Name|Type|Description|example|
+|----|----|-----------|-------|
+|Authorization|`String`|JWT토큰|`"Bearer asnkansd12kld..."`|
 
 ## Failure Response
 
 **Condition** : 로그인 실패
 
-**Code** : `401 Unauthorized`
+**Code** : `400 Bad Request`
 
 **Content**
 ```json
 {
-    "errMsg" : "Failed to Auth"
+  "status":"BAD_REQUEST",
+  "result": "에러메세지"
 }
 ```
 
