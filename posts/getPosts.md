@@ -1,4 +1,4 @@
-**URL** : `/api/posts?page=<pageNumber>`
+**URL** : `/api/posts/?page=<pageNumber>&size=<pageSize>`
 
 **Method** : `GET`
 
@@ -8,9 +8,10 @@
 
 **Query String**
 
-|Name|Type|Required|Default|Description|example|
-|----|----|--------|-------|--------|-------|
-|page|`Number`|`True`|0|페이지네이션 인덱스|`1`|
+|Name|Type|Required|example|Description|
+|----|----|--------|--------|-------|
+|pageNumber|`Number`|`True`|`0`|페이지네이션 인덱스|
+|pageSize|`Number`|`True`|`10`|한 페이지에 가져올 포스트 수|
 
 ## Success Responses
 
@@ -21,30 +22,12 @@
 **Content**
 
 ```json
-{
-    [
-      {
-        "_id" : 1,
-        "user_id" : 1,
-        "username" : "anjm1020"
-        "title" : "Post Title",
-        "createAt" : "Tue May 2 2022 11:00:19 GMT+0900",
-        "updateAt" : "Tue May 10 2022 16:47:29 GMT+0900",
-      },
-    ]
-}
+[
+{post 1} , {post 2} ...
+]
 ```
+배열안의 각 객체들은 readPost의 content와 동일함
 
 ## Failure Response
 
-**Condition** : 해당 페이지 인덱스가 존재하지 않을 때
-
-**Code** : `404 Not Found`
-
-**Content**
-```json
-{
-    "errMsg" : "Invalid index"
-}
-```
 
