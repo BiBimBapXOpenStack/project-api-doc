@@ -10,12 +10,11 @@
 
 |Name|Type|Required|Description|example|
 |----|----|--------|--------|-------|
-|user_id|`BigInt`|`True`|게시글 작성 유저 ID|`1`|
-|username|`String`|`True`|게시글 작성 유저이름|`"anjm1020"`|
+|user_id|`Number`|`True`|게시글 작성 유저 ID|`1`|
 |title|`String`|`True`|게시글 제목|`"Title"`|
 |content|`String`|`True`|게시글 본문|`"Lorem Ipsum...."`|
-|images|`Array<imageFile>`|`False`|게시글에 포함된 이미지 |`"userName"`|
-|imageFile|`Multipartfiel`|`False`|이미지 파일||
+|imageName|`String`|`False`|게시글에 포함된 이미지 이름|`"image1"`|
+|file|`file`|`False`|이미지 파일||
 
 
 
@@ -26,9 +25,3 @@
 **Code** : `200 OK`
 
 **Content**
-
-```json
-{
-  "_id" : 1
-}
-```
