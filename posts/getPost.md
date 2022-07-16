@@ -38,7 +38,7 @@
 |title|`String`|게시글 title|`"post title"`|
 |content|`String`|게시글 본문|`"post body ..."`|
 |imageId|`Long`|게시글 이미지 id|`1`|
-|imageUrl|`String`|게시글 이미지 엔드포인트|`https://api-storgae....`|
+|imageUrl|`String`|게시글 이미지 엔드포인트|`"https://api-storgae...."`|
 |userId|`Long`|게시글 작성자 id|`1`|
 |username|`String`|게시글 작성자 이름|`"jaemin"`|
 
