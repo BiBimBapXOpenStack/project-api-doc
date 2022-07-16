@@ -23,7 +23,7 @@
 
 ```json
 [
-{post 1} , {post 2} ...
+{"post 1"} , {"post 2"},
 ]
 ```
 배열안의 각 객체들은 readPost의 content와 동일함
