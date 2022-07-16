@@ -1,4 +1,4 @@
-**URL** : `/api/users/`
+**URL** : `/api/members/signup`
 
 **Method** : `POST`
 
@@ -8,11 +8,13 @@
 
 |Name|Type|Required|Description|example|
 |----|----|--------|-----------|-------|
+|email|`String`|`True`|사용자 이메일|`"user@mail.com"`|
 |username|`String`|`True`|사용자 이름|`"userName"`|
 |password|`String`|`True`|사용자 비밀번호|`"password"`|
 
 ```json
 {
+  "email" : "user@email.com"
   "username" : "example userID",
   "password" : "example password"
 }
@@ -29,7 +31,12 @@
 **Content**
 ```json
 {
-    "username" : "userExample"
+  "status" : "OK",
+  "result" : 
+    {
+     "id" : 3,
+     "username" : "jaemin"
+    }
 }
 ```
 
@@ -42,7 +49,8 @@
 **Content**
 ```json
 {
-    "errMsg" : "Conflict ID"
+  "status":"CONFLICT",
+  "result":"이미 가입되어 있는 유저입니다."
 }
 ```
 
